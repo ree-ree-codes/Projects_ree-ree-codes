@@ -1,12 +1,12 @@
 
 Author   : Reesau Avis
-Student #: 101264010
 
 
-REESAU AVIS, 101264010
 
 
-                    ### Assignment 5 ###
+
+
+                  
 
 About: webapp allows you to play and store points from a trivia game. It's built on top of the Open Trivia Databse. It's accessed by URL rather than an API key, more info can be found here: https://opentdb.com/api_config.php 
 
