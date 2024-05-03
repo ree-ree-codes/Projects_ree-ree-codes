@@ -1,0 +1,30 @@
+ {{!-- taken from the T10 example code and modified --}}
+<!DOCTYPE html>
+<html>
+<head> 
+  <title> {{title}} </title>
+  <table>
+    <th>UserId: &nbsp;&nbsp; &nbsp;&nbsp;   </th> 
+    <th>PassWord:</th> 
+    <th>Points:</th> 
+    <th>Role:</th>
+
+  
+</head>
+<body>
+   <h1>{{title}}</h1>
+<div> 
+   {{#each userEntries}} 
+    <tr>
+        <td>{{this.userid}}</td>
+        <td>{{this.password}}</td>
+        <td>{{this.points}}</td>
+        <td>{{this.role}}</td>
+        
+    </tr>
+            
+   {{/each}} 
+</div>
+</table>
+</body>
+</html>

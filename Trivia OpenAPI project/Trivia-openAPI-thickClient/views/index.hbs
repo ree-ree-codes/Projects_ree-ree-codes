@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trivia Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Trivia Game!</h1>
+            <p>Playing as: {{ currentUserID }}</p>
+            <br></br>
+            How many questions: <input type="text" placeholder="enter number < 50" id="quantity" />
+            <button class="subbutton" id="get_trivia_button" style="margin-bottom: 50px;">Get Trivia Questions</button>
+        </div>
+        <div id="triviaResult"></div>
+        <button id="submitAnswers">Submit Answers</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
