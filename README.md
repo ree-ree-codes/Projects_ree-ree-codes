@@ -3,4 +3,4 @@
 
 Welcome to my Projects repository!!✨
 
-any cool projects that I've done will be added here.
+some cool projects that I've done will be added here.
